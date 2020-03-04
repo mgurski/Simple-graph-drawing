@@ -71,10 +71,10 @@ class Drawer:
 
 draw = Drawer()
 
-draw.read_csv('data2.csv')
+draw.read_csv('SimpleDrawing/data2.csv')
 draw.drawing('ExampleGraphLabel', True)
 
-draw.read_csv('data.csv')
+draw.read_csv('SimpleDrawing/data.csv')
 draw.drawing('ExampleGraphLabel2', True)
 
 draw.showing('ExampleGraph', 'ExamplexLabel', 'Exampleylabel')
